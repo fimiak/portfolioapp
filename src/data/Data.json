@@ -1,0 +1,38 @@
+[
+  {
+    "name": "IONSTATE",
+    "image": "ionstate.jpg",
+    "stack": "ReactJS, HTML, CSS, Javascript",
+    "url": "http://ionstate.com/"
+  },
+  {
+    "name": "Livescribe",
+    "image": "livescribe.png",
+    "stack": "Wordpress, HTML, CSS, Javascript, Magento",
+    "url": "https://www.livescribe.com/en-us/"
+  },
+  {
+    "name": "Herofi",
+    "image": "herofi.png",
+    "stack": "HTML, CSS, Javascript, Wordpress",
+    "url": "http://www.herofi.com/"
+  },
+  {
+    "name": "tictactoeJS",
+    "image": "ionstate.jpg",
+    "stack": "ReactJS, Javascript, HTML, CSS",
+    "url": ""
+  },
+  {
+    "name": "sanfranciscoDB",
+    "image": "sfdb.png",
+    "stack": "AngularJS, HTML, CSS, Javascript",
+    "url": "http://fimiak.github.io/sfdb/index.html#/"
+  },
+  {
+    "name": "Sudoku",
+    "image": "sudoku.png",
+    "stack": "HTML, CSS",
+    "url": "http://fimiak.github.io/sudoku/index.html"
+  }
+]

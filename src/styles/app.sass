@@ -1,0 +1,200 @@
+*
+  box-sizing: border-box
+  
+body
+  background-color: #2E2E2E
+  color: #FFFFFF
+  font-size: 16px
+
+h1
+  font-size: 1.5em
+  font-weight: 400
+  text-align: center
+
+a
+  color: #FFF
+
+ul
+  margin: 0
+  list-style: none
+  padding: 15px
+
+.App
+  display: grid
+  grid-template-columns: 33% auto
+  grid-template-rows: 100%
+  grid-template-areas: "sidebar content"
+
+.logo
+  width: 80px
+  height: 80px
+  border-radius: 5px
+
+.sidebar
+  background: #222
+  border-right: 3px solid transparent
+  border-image: linear-gradient(135deg, #1FB0B1, #14666C)
+  border-image-slice: 1
+  display: flex
+  overflow: hidden
+  flex-direction: column
+  grid-area: sidebar
+  height: 100vh
+  justify-content: center
+  padding: 15px
+  align-items: center
+  a
+    margin-bottom: 3px
+
+.content
+  grid-area: content
+  overflow: auto
+  height: 100vh
+
+.app-title
+  color: #FFF
+
+.block
+  background: #333
+  border-bottom: 3px solid transparent
+  border-image: linear-gradient(45deg, #C31EC3, #98059E)
+  border-image-slice: 1
+  display: flex
+  align-items: center
+  padding: 30px
+  width: auto
+  ul
+    padding: 0 30px
+
+.bg-one
+  &:hover
+    background: linear-gradient(to right, #30CFD0, #330867)
+    border: 100% solid #333
+
+.bg-two
+  &:hover
+    background: linear-gradient(to right, #d4fc79, #56AB2F)
+
+.bg-three
+  &:hover
+    background: linear-gradient(to right, #FF5858, #F09819)
+
+.bg-four
+  &:hover
+    background: linear-gradient(to right, #CC208E, #6713D2)
+
+.bg-five
+  &:hover
+    background: linear-gradient(to right, #243949, #517FA4)
+
+.bg-six
+  &:hover
+    background: linear-gradient(to right, #F77062, #FE5196)
+
+.block--img
+  display: flex
+  justify-content: center
+  align-items: center
+  background: #CCC
+  max-height: 200px
+  max-width: 200px
+  overflow: hidden
+
+.intro
+  color: #FFF
+  font-size: 1.15rem
+  margin: 0 auto
+  border-bottom: 3px solid #777
+  padding: 60px 15px
+  width: 100%
+  p
+    padding: 0 60px
+    font-family: 'Helvetica Neue', Helvetica, sans-serif
+    font-weight: 100
+    font-size: 1.5em
+
+.history
+  background: #333333
+  padding: 30px 15px
+
+.skills
+  display: flex
+  justify-content: space-around
+  ul
+    li
+      padding: 3px 0
+    li:nth-child(n+2)
+      padding-left: 15px
+
+.content-image
+  height: 100%
+  width: 100%
+
+.sidebar-links
+  display: flex
+  flex-direction: column
+
+@media(max-width: 600px)
+  body
+    font-size: 12px
+
+  h3
+    font-size: 1rem
+    margin: 8px auto
+
+  .App
+    grid-template-columns: auto
+    grid-template-rows: 100px auto
+    grid-template-areas: "sidebar" "content"
+
+  .sidebar
+    background: #333
+    border-right: none
+    border-bottom: 3px solid transparent
+    border-image: linear-gradient(135deg, #1FB0B1, #14666C)
+    border-image-slice: 1
+    display: flex
+    flex-direction: row
+    overflow: hidden
+    justify-content: space-between
+    grid-area: sidebar
+    height: auto
+    padding: 15px
+
+  .logo
+    width: 50px
+    height: 50px
+
+  .skills
+    display: flex
+    flex-direction: column
+    ul
+      display: flex
+      flex-direction: column
+      padding: 5px
+      li
+        text-align: center
+        font-weight: 200
+        font-size: 1rem
+      li:nth-child(n+2)
+        padding: 0
+
+  .intro
+    padding: 15px
+    p
+      font-size: 1.2em
+      padding: 0 30px
+
+  .content-image
+    min-height: 80px
+    min-width: 80px
+
+  .block
+    display: flex
+    flex-direction: column
+    ul
+      padding: 15px
+
+  .sidebar-links
+    p
+      display: none
