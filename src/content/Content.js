@@ -35,8 +35,8 @@ function Content() {
       </div>
       <div className="topmargin" />
       <Project bg="bg-one" data={data[0]} />
-      <Project bg="bg-two" data={data[1]} />
-      <Project bg="bg-three" data={data[2]} />
+      <Project bg="bg-two" data={data[2]} />
+      <Project bg="bg-three" data={data[1]} />
       <Project bg="bg-four" data={data[3]} />
       <Project bg="bg-five" data={data[4]} />
       <Project bg="bg-six" data={data[5]} />
