@@ -14,7 +14,7 @@
   {
     "name": "Livescribe",
     "image": "livescribe.png",
-    "stack": "Wordpress, HTML, CSS, Javascript, Magento",
+    "stack": "HTML, CSS, Jquery, Wordpress",
     "url": "https://www.livescribe.com/en-us/"
   },
   {
@@ -32,7 +32,7 @@
   {
     "name": "sanfranciscoDB",
     "image": "sfdb.png",
-    "stack": "AngularJS, HTML, CSS, Javascript",
+    "stack": "Angular 1, HTML, CSS, Javascript",
     "url": "http://fimiak.github.io/sfdb/index.html#/"
   },
   {
