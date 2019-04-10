@@ -2,8 +2,14 @@
   {
     "name": "IONSTATE",
     "image": "ionstate.jpg",
-    "stack": "ReactJS, HTML, CSS, Javascript",
+    "stack": "React, HTML, SASS, Javascript",
     "url": "http://ionstate.com/"
+  },
+  {
+    "name": "Recycle Demo",
+    "image": "recycle.jpg",
+    "stack": "React, HTML, SASS, Javascript",
+    "url": "http://recycle-app.surge.sh/"
   },
   {
     "name": "Livescribe",
@@ -20,7 +26,7 @@
   {
     "name": "tictactoeJS",
     "image": "ionstate.jpg",
-    "stack": "ReactJS, Javascript, HTML, CSS",
+    "stack": "React, Javascript, HTML, CSS",
     "url": "http://brainy-scale.surge.sh/"
   },
   {
