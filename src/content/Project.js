@@ -2,8 +2,8 @@ import React from 'react';
 
 function Project(props) {
   return (
-    <div className={'block ' + props.bg}>
-      <div className={'block__img'}>
+    <div className="block">
+      <div className="block__img">
         <img className="content__image" src={require(`.././images/${props.data.image}`)} alt="ionstate" />
       </div>
 
@@ -12,7 +12,7 @@ function Project(props) {
 
         <h3 className="project__stack">{props.data.stack}</h3>
         <a className="project__url" href={props.data.url}>
-          {props.data.url}
+          View Project
         </a>
       </div>
     </div>

@@ -24,10 +24,10 @@ function Sidebar() {
         </div>
       </div>
       <div className="intro">
-        <h3>
-          I am a Front End Engineer in San Francisco, CA. I enjoy creating mobile and desktop React based applications.
+        <p>
+          I am a Front End Engineer in San Francisco, CA. I enjoy creating mobile and desktop React-based applications.
           I am open to learning any new web technology to get the job done.
-        </h3>
+        </p>
         <div className="skills">
           <ul>
             <li>
@@ -43,7 +43,7 @@ function Sidebar() {
           </ul>
           <ul>
             <li>
-              <h3>Web Design</h3>
+              <h3>Web Design Tools</h3>
             </li>
             <li>D3.js</li>
             <li>Sketch</li>
@@ -52,6 +52,12 @@ function Sidebar() {
             <li>User Interface Design</li>
             <li>Photography</li>
           </ul>
+        </div>
+        <div className="history">
+          <h3>Education</h3>
+          <p>A mix of CS classes and Self-taught - Front End Engineering</p>
+          <p>New York University - Class of 2012 - MS Political Science</p>
+          <p>Central Michigan University - Class of 2008 - BS Political Science</p>
         </div>
       </div>
     </div>
