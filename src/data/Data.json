@@ -1,44 +1,58 @@
 [
   {
     "name": "IONSTATE",
-    "image": "ionstate.jpg",
-    "stack": "React, HTML, SASS, Javascript",
+    "image": "ionstate.png",
+    "description": "Full-stack news feed",
+    "stack": "React, HTML, SASS, JS, NodeJS",
     "url": "http://ionstate.com/"
   },
   {
-    "name": "Recycle Demo",
-    "image": "recycle.jpg",
+    "name": "Recycling Demo",
+    "image": "recycling.png",
+    "description": "React-based demo website",
     "stack": "React, HTML, SASS, Javascript",
     "url": "http://recycle-app.surge.sh/"
   },
   {
     "name": "Livescribe",
     "image": "livescribe.png",
+    "description": "smart pen, front end engineer",
     "stack": "HTML, CSS, Jquery, Wordpress",
     "url": "https://www.livescribe.com/en-us/"
   },
   {
     "name": "Herofi",
     "image": "herofi.png",
-    "stack": "HTML, CSS, Javascript, Wordpress",
+    "description": "Wordpress developer | 2018",
+    "stack": "HTML, CSS, JS, Wordpress",
     "url": "http://www.herofi.com/"
   },
   {
+    "name": "Pet Adoption",
+    "image": "petadoption.png",
+    "description": "stripped down image loading & grid creation",
+    "stack": "Javascript, HTML, CSS",
+    "url": "http://asanawebtest.surge.sh"
+  },
+  {
     "name": "tictactoeJS",
-    "image": "ionstate.jpg",
+    "image": "tictactoe.png",
+    "description": "Tic Tac Toe from scratch in React",
     "stack": "React, Javascript, HTML, CSS",
     "url": "http://brainy-scale.surge.sh/"
   },
   {
     "name": "sanfranciscoDB",
     "image": "sfdb.png",
+    "description": "Angular driven web app",
     "stack": "Angular 1, HTML, CSS, Javascript",
     "url": "http://fimiak.github.io/sfdb/index.html#/"
   },
   {
     "name": "Sudoku",
     "image": "sudoku.png",
-    "stack": "HTML, CSS",
+    "description": "Front end for sudoku game",
+    "stack": "HTML, CSS, Javascript",
     "url": "http://fimiak.github.io/sudoku/index.html"
   }
 ]

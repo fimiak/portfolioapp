@@ -74,10 +74,12 @@ span {
   flex-direction: column;
   margin: 45px 0 30px;
   justify-content: center; }
+  .sidebar-content span {
+    margin: 5px 0; }
 
 .intro p {
-  margin: 30px 0 50px;
-  max-width: 600px; }
+  margin: 25px 0 50px;
+  max-width: 500px; }
 
 .content {
   align-items: center;
@@ -99,14 +101,19 @@ span {
 
 .block {
   align-items: center;
-  background: #f7f8f9;
   border: 0;
   display: flex;
   justify-content: center;
   margin: 30px;
+  transition: 200ms;
   position: relative; }
+  .block:hover {
+    transition: 200ms; }
+    .block:hover .content__image {
+      transition: 300ms;
+      opacity: 0.5; }
   .block:hover .block__text {
-    margin-top: 30px;
+    margin-top: 60px;
     opacity: 1;
     transition: 300ms; }
 
@@ -114,24 +121,36 @@ span {
   display: flex;
   justify-content: center;
   align-items: center;
-  background: #CCC;
   height: 250px;
   width: 250px; }
 
 .block__text {
   background: #fff;
   box-shadow: 0px 2px 10px rgba(50, 50, 50, 0.25);
+  color: #555;
   cursor: default;
-  margin-top: 60px;
+  font-size: 12px;
+  margin-top: 30px;
   max-width: 250px;
   opacity: 0;
   padding: 20px;
   position: absolute;
-  text-align: center;
-  transition: 300ms; }
-  .block__text h3:first-child {
-    text-transform: uppercase;
-    margin: 0 0 8px; }
+  text-transform: lowercase;
+  transition: 300ms;
+  width: 100%; }
+  .block__text h3 {
+    font-size: 14px;
+    font-weight: 700;
+    margin: 0 0 8px;
+    text-align: left;
+    text-transform: uppercase; }
+  .block__text a {
+    font-size: 14px; }
+  .block__text p {
+    margin: 0; }
+  .block__text span {
+    display: block;
+    margin-bottom: 10px; }
 
 .history {
   align-items: center;
@@ -146,7 +165,7 @@ span {
 
 .skills {
   display: flex;
-  justify-content: space-around; }
+  justify-content: space-between; }
   .skills ul {
     padding: 0 0 15px; }
     .skills ul li {
@@ -161,9 +180,10 @@ span {
 
 .project__url {
   font-weight: 200;
-  text-decoration: underline; }
+  text-decoration: underline;
+  transition: 150ms; }
   .project__url:hover {
-    color: #aaa; }
+    color: #24FE41; }
 
 .project__stack {
   font-size: 16px;
@@ -180,8 +200,8 @@ span {
 
 .footer {
   background-color: #2a2b2c;
-  color: #aaa;
-  font-size: 13px;
+  color: #999;
+  font-size: 12px;
   padding: 75px 0 10px;
   text-align: center;
   width: 100%; }

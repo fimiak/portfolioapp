@@ -6,7 +6,7 @@ function Content() {
   return (
     <div className="content">
       <div>
-        <h3>Projects</h3>
+        <h3>Highlighted Projects</h3>
       </div>
       <div className="content__box">
         <Project data={data[0]} />
@@ -16,6 +16,7 @@ function Content() {
         <Project data={data[4]} />
         <Project data={data[5]} />
         <Project data={data[6]} />
+        <Project data={data[7]} />
       </div>
     </div>
   );

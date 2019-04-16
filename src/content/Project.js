@@ -9,8 +9,8 @@ function Project(props) {
 
       <div className="block__text">
         <h3>{props.data.name}</h3>
-
-        <h3 className="project__stack">{props.data.stack}</h3>
+        <p className="project__stack">{props.data.description}</p>
+        <span className="project__stack">{props.data.stack}</span>
         <a className="project__url" href={props.data.url}>
           View Project
         </a>
