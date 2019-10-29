@@ -57,7 +57,6 @@ span {
 }
 
 .logo {
-  background-color: rgba(224, 197, 111, 0.25);
   padding: 200px;
   width: 500px;
   height: 500px;
@@ -71,13 +70,15 @@ span {
 .header {
   align-items: center;
   background-color: #f7f8f9;
+  background-image: url('.././images/portfolio-bg.svg');
+  background-position: right top;
+  background-repeat: no-repeat;
   display: flex;
   flex-direction: column;
   justify-content: center;
   overflow: hidden;
   padding: 15px 0 25px;
-  max-width: 1280px;
-  width: 80%;
+  width: 100%;
 }
 
 .header a {
@@ -88,6 +89,7 @@ span {
   align-items: center;
   display: flex;
   justify-content: space-between;
+  max-width: 1280px;
   width: 100%;
   z-index: 2;
 }
@@ -124,13 +126,14 @@ span {
   align-items: center;
   display: flex;
   flex: 1;
-  min-height: 400px;
+  min-height: 600px;
   justify-content: center;
 }
 
 .header-content {
   display: flex;
-  width: 100%;
+  max-width: 1280px;
+  width: 80%;
 }
 
 .header-btn {
@@ -322,8 +325,16 @@ span {
 
 .form-page {
   align-items: center;
+
   display: flex;
+  justify-content: center;
+  padding-bottom: 0px;
   width: 100%;
+}
+
+.form-container {
+  align-items: center;
+  display: flex;
   justify-content: space-between;
   margin: 60px 0 120px;
   max-width: 1280px;
@@ -434,9 +445,13 @@ span {
 }
 
 .footer {
-  background-color: #f5ebda;
+  background-image: url('.././images/portfolio-footer.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 0 top;
   display: flex;
   justify-content: center;
+  padding: 200px 0 0;
   width: 100%;
 }
 
@@ -468,6 +483,19 @@ span {
   font-weight: 400;
 }
 
+/*********************************/
+/*********************************/
+/*********************************/
+/*********************************/
+/*********************************/
+/*********************************/
+/*********************************/
+/*********************************/
+/*********************************/
+/*********************************/
+/*********************************/
+/*********************************/
+
 @media (max-width: 1200px) {
   .content__box {
     grid-template-columns: repeat(2, 1fr);
@@ -484,7 +512,9 @@ span {
   }
 
   .header {
-    width: 90%;
+    background-position: -75px top;
+    background-size: cover;
+    width: 100%;
   }
 
   .header a {
@@ -493,6 +523,7 @@ span {
 
   .header-bar {
     margin-bottom: 40px;
+    width: 90%;
   }
 
   .header-bar a {
@@ -505,6 +536,7 @@ span {
 
   .header-content {
     flex-direction: column;
+    width: 90%;
   }
 
   .header-img {
@@ -552,7 +584,7 @@ span {
     font-size: 20px;
   }
 
-  .form-page {
+  .form-container {
     flex-direction: column;
     margin: 30px 60px;
   }

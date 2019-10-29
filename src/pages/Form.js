@@ -4,8 +4,10 @@ import Form from '.././components/Form';
 function FormPage() {
   return (
     <div id="form" className="form-page">
-      <Form className="form-control" />
-      <div className="form-image"></div>
+      <div className="form-container">
+        <Form className="form-control" />
+        <div className="form-image"></div>
+      </div>
     </div>
   );
 }
