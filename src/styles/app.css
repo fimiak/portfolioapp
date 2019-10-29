@@ -35,7 +35,7 @@ h3 {
   font-family: 'Source Serif Pro', serif;
   font-weight: 700;
   margin: 8px 0;
-  text-align: center;
+  text-align: left;
 }
 
 a {
@@ -171,15 +171,22 @@ span {
 }
 
 .intro {
-  font-size: 16px;
-  width: 80%;
-  max-width: 1280px;
+  background-image: url('.././images/portfolio-left.svg');
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  width: 100%;
 }
 
 .intro p {
-  font-size: 24px;
   margin: 25px 0;
-  max-width: 960px;
+  max-width: 560px;
+}
+
+.bio {
+  font-size: 18px;
+  min-height: 400px;
+  width: 80%;
 }
 
 .content {
@@ -187,7 +194,7 @@ span {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding: 15px 0;
+  padding: 30px 0;
   max-width: 1280px;
   width: 80%;
 }
@@ -264,7 +271,6 @@ span {
   font-size: 14px;
   font-weight: 700;
   margin: 0 0 10px;
-  text-align: left;
   text-transform: uppercase;
 }
 
@@ -300,17 +306,11 @@ span {
   justify-content: space-between;
 }
 
-.skills h3 {
-  font-size: 23px;
-  text-align: left;
-}
-
 .skills ul {
   padding: 0;
 }
 
 .skills ul li {
-  font-size: 18px;
   font-weight: 300;
   padding: 2px 0;
 }
@@ -353,7 +353,7 @@ span {
   align-items: center;
   display: flex;
   justify-content: space-between;
-  margin: 60px 0 120px;
+  margin: 90px 0 30px;
   max-width: 1280px;
   width: 80%;
 }
