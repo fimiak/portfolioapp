@@ -2,30 +2,30 @@
   {
     "name": "IONSTATE",
     "image": "ionstate.png",
-    "description": "Full-stack news feed",
+    "description": "react-based news feed, side project",
     "stack": "React, HTML, SASS, JS, NodeJS",
     "url": "http://ionstate.com/"
   },
   {
-    "name": "Recycling Demo",
-    "image": "recycling.png",
-    "description": "React-based demo website",
-    "stack": "React, HTML, SASS, Javascript",
-    "url": "http://recycle-app.surge.sh/"
+    "name": "Herofi",
+    "image": "herofi.png",
+    "description": "front end engineer | 2018",
+    "stack": "HTML, CSS, JS, Wordpress",
+    "url": "http://www.herofi.com/"
   },
   {
     "name": "Livescribe",
     "image": "livescribe.png",
-    "description": "smart pen, front end engineer",
+    "description": "front end engineer, 2015-2017",
     "stack": "HTML, CSS, Jquery, Wordpress",
     "url": "https://www.livescribe.com/en-us/"
   },
   {
-    "name": "Herofi",
-    "image": "herofi.png",
-    "description": "Wordpress developer | 2018",
-    "stack": "HTML, CSS, JS, Wordpress",
-    "url": "http://www.herofi.com/"
+    "name": "Recycling",
+    "image": "recycling.png",
+    "description": "react-based demo website, clean look",
+    "stack": "React, HTML, SASS, Javascript",
+    "url": "http://recycle-app.surge.sh/"
   },
   {
     "name": "Pet Adoption",
@@ -37,14 +37,14 @@
   {
     "name": "tictactoeJS",
     "image": "tictactoe.png",
-    "description": "Tic Tac Toe from scratch in React",
+    "description": "Tic Tac Toe from scratch in javascript",
     "stack": "React, Javascript, HTML, CSS",
     "url": "http://brainy-scale.surge.sh/"
   },
   {
     "name": "sanfranciscoDB",
     "image": "sfdb.png",
-    "description": "Angular driven web app",
+    "description": "angular 1.x web app",
     "stack": "Angular 1, HTML, CSS, Javascript",
     "url": "http://fimiak.github.io/sfdb/index.html#/"
   },

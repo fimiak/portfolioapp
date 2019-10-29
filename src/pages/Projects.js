@@ -5,10 +5,8 @@ import data from './../data/Data.json';
 function Content() {
   return (
     <div className="content">
-      <div>
-        <h3>Highlighted Projects</h3>
-      </div>
-      <div className="content__box">
+      <h1>Projects</h1>
+      <ul className="content__box">
         <Project data={data[0]} />
         <Project data={data[1]} />
         <Project data={data[2]} />
@@ -17,7 +15,7 @@ function Content() {
         <Project data={data[5]} />
         <Project data={data[6]} />
         <Project data={data[7]} />
-      </div>
+      </ul>
     </div>
   );
 }

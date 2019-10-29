@@ -1,15 +1,18 @@
 import React, { Component } from 'react';
-import Content from './content/Content';
-import Sidebar from './sidebar/Sidebar';
-import Footer from './content/Footer';
-import './styles/app.css';
+import Projects from './pages/Projects';
+import Header from './components/Header';
+import Bio from './pages/Bio';
+import FormPage from './pages/Form';
+import Footer from './components/Footer';
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-        <Sidebar />
-        <Content />
+        <Header />
+        <Projects />
+        <Bio />
+        <FormPage />
         <Footer />
       </div>
     );
