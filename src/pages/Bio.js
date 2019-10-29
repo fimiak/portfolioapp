@@ -2,7 +2,7 @@ import React from 'react';
 
 function Bio() {
   return (
-    <div className="intro">
+    <div className="intro" id="about">
       <p>
         More about me, I enjoy coding mobile and desktop React-based websites and applications. I am always looking to
         discover new solutions and to create optimal experiences when working in office or remote.

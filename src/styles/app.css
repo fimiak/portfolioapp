@@ -58,11 +58,11 @@ span {
 
 .logo {
   background-color: rgba(224, 197, 111, 0.25);
-  padding: 150px;
-  width: 400px;
-  height: 400px;
-  opacity: 0.9;
-  border-radius: 200px;
+  padding: 200px;
+  width: 500px;
+  height: 500px;
+  opacity: 0.8;
+  border-radius: 500px;
   margin-bottom: 60px;
   position: absolute;
   overflow-x: hidden;
@@ -94,6 +94,10 @@ span {
 
 .header-bar a {
   padding: 5px 10px;
+}
+
+.header-bar a:hover {
+  color: #b09026;
 }
 
 .header-links {
@@ -137,7 +141,7 @@ span {
   cursor: pointer;
   font-size: 16px;
   margin-top: 10px;
-  padding: 10px 20px;
+  padding: 10px 30px;
   text-align: center;
   transition: 200ms;
   width: 120px;
@@ -317,9 +321,10 @@ span {
 }
 
 .form-page {
+  align-items: center;
   display: flex;
   width: 100%;
-  justify-content: space-around;
+  justify-content: space-between;
   margin: 60px 0 120px;
   max-width: 1280px;
   width: 80%;
@@ -329,8 +334,9 @@ span {
   display: flex;
   flex-direction: column;
   flex-grow: 1;
-  padding: 0 10px;
-  max-width: 500px;
+  padding: 0;
+  max-width: 450px;
+  width: 100%;
 }
 
 .form input {
@@ -344,7 +350,7 @@ span {
 }
 
 .form input::placeholder {
-  color: #808000;
+  color: #70756e;
 }
 
 .form input:focus {
@@ -362,14 +368,14 @@ span {
 }
 
 .form textarea::placeholder {
-  color: #808000;
+  color: #70756e;
 }
 
 .form textarea:focus {
   border: 2px solid #b08f26;
 }
 
-.form button {
+.form .form-submit {
   background-color: #c4a747;
   border-radius: 3px;
   border: 0;
@@ -380,7 +386,7 @@ span {
   transition: 200ms;
 }
 
-.form button:hover {
+.form-submit:hover {
   background-color: #e8b923;
 }
 
@@ -390,11 +396,11 @@ span {
 
 .form-image {
   border: 1px dashed #e8b923;
-  border-radius: 200px;
+  border-radius: 250px;
+  min-width: 250px;
   width: 250px;
   height: 250px;
-  margin: 25px 0px;
-  padding: 0px;
+  margin: 25px;
 }
 
 .footer-links {
@@ -404,11 +410,21 @@ span {
 }
 
 .footer-links a {
-  margin-left: 15px;
+  align-items: center;
+  border-radius: 90px;
+  display: flex;
+  justify-content: center;
+  margin-left: 4px;
+  padding: 8px;
+  transition: 200ms;
 }
 
 .footer-links a img {
-  width: 22px;
+  width: 24px;
+}
+
+.footer-links a:hover {
+  background-color: #eae2cd;
 }
 
 .footer-links a svg {
@@ -501,9 +517,10 @@ span {
   }
 
   .logo {
-    height: 400px;
+    height: 380px;
     margin: 0;
-    width: 400px;
+    padding: 140px;
+    width: 380px;
   }
 
   .content {
@@ -542,6 +559,10 @@ span {
 
   .form {
     margin-bottom: 30px;
+  }
+
+  .form-image {
+    margin: 15px 0;
   }
 
   .footer a {

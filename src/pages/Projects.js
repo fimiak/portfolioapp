@@ -4,7 +4,7 @@ import data from './../data/Data.json';
 
 function Content() {
   return (
-    <div className="content">
+    <div className="content" id="projects">
       <h1>Projects</h1>
       <ul className="content__box">
         <Project data={data[0]} />

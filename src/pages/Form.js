@@ -3,7 +3,7 @@ import Form from '.././components/Form';
 
 function FormPage() {
   return (
-    <div className="form-page">
+    <div id="form" className="form-page">
       <Form className="form-control" />
       <div className="form-image"></div>
     </div>
