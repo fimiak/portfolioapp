@@ -4,8 +4,8 @@ function Bio() {
   return (
     <div className="intro" id="about">
       <p>
-        More about me, I enjoy coding mobile and desktop React-based websites and applications. I am always looking to
-        discover new solutions and to create optimal experiences when working in office or remote.
+        I enjoy coding mobile and desktop React-based websites and applications. I am always looking to discover new
+        solutions and to create optimal experiences when working in an office or by remote communication.
       </p>
       <div className="skills">
         <ul>

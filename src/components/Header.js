@@ -17,9 +17,9 @@ function Header() {
       <div className="header-content">
         <div className="header-intro">
           <h1>Welcome!</h1>
-          <h2>I'm Tyler, a Front End Engineer working in React in San Francisco.</h2>
+          <h2>I'm Tyler, a Front End Engineer working with React in San Francisco.</h2>
           <a className="header-btn" href="#form">
-            Hire Me
+            Hire Me!
           </a>
         </div>
         <div className="header-img">

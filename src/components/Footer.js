@@ -8,7 +8,9 @@ function Footer() {
     <div className="footer" id="footer">
       <div className="footer-container">
         <div className="footer-text">
-          <a href="/">Tyler James Greve</a>
+          <a href="/">
+            <h3>Tyler James Greve</h3>
+          </a>
           <p>2019 &copy; Thanks for visiting!</p>
         </div>
         <ul className="footer-links">
